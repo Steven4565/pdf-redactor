@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 import openai
 from openai import OpenAI
 
-from src.prompts import get_prompt
+from python_backend.prompts import get_prompt
 
 load_dotenv()
 
